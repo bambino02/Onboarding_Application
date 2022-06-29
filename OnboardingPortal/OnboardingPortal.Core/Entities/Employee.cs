@@ -17,6 +17,7 @@ namespace OnboardingPortal.Core.Entities
         public string Location { get; set; }
         public float Salary { get; set; }
         
+        public int IdManager { get; set; }
         public ICollection<Module> Modules { get; set; }
         public ICollection<Event> Events { get; set; }
         public Manager Manager { get; set; }

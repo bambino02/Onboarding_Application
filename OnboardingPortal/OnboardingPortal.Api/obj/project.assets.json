@@ -75,6 +75,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "OnboardingPortal.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "OnboardingPortal.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OnboardingPortal.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnboardingPortal.Application.dll": {}
+        }
+      },
+      "OnboardingPortal.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/OnboardingPortal.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnboardingPortal.Core.dll": {}
+        }
+      },
+      "OnboardingPortal.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "OnboardingPortal.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OnboardingPortal.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnboardingPortal.Infra.dll": {}
+        }
       }
     }
   },
@@ -185,10 +221,26 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "OnboardingPortal.Application/1.0.0": {
+      "type": "project",
+      "path": "../OnboardingPortal.Application/OnboardingPortal.Application.csproj",
+      "msbuildProject": "../OnboardingPortal.Application/OnboardingPortal.Application.csproj"
+    },
+    "OnboardingPortal.Core/1.0.0": {
+      "type": "project",
+      "path": "../OnboardingPortal.Core/OnboardingPortal.Core.csproj",
+      "msbuildProject": "../OnboardingPortal.Core/OnboardingPortal.Core.csproj"
+    },
+    "OnboardingPortal.Infra/1.0.0": {
+      "type": "project",
+      "path": "../OnboardingPortal.Infra/OnboardingPortal.Infra.csproj",
+      "msbuildProject": "../OnboardingPortal.Infra/OnboardingPortal.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "OnboardingPortal.Infra >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -216,7 +268,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/varvarabaranchikova/PJATK/Diploma/Onboarding_Application/OnboardingPortal/OnboardingPortal.Infra/OnboardingPortal.Infra.csproj": {
+              "projectPath": "/Users/varvarabaranchikova/PJATK/Diploma/Onboarding_Application/OnboardingPortal/OnboardingPortal.Infra/OnboardingPortal.Infra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

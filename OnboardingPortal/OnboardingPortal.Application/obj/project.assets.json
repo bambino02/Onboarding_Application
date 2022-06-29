@@ -2,19 +2,6 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "OnboardingPortal.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "OnboardingPortal.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/OnboardingPortal.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OnboardingPortal.Application.dll": {}
-        }
-      },
       "OnboardingPortal.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -28,11 +15,6 @@
     }
   },
   "libraries": {
-    "OnboardingPortal.Application/1.0.0": {
-      "type": "project",
-      "path": "../OnboardingPortal.Application/OnboardingPortal.Application.csproj",
-      "msbuildProject": "../OnboardingPortal.Application/OnboardingPortal.Application.csproj"
-    },
     "OnboardingPortal.Core/1.0.0": {
       "type": "project",
       "path": "../OnboardingPortal.Core/OnboardingPortal.Core.csproj",
@@ -41,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "OnboardingPortal.Application >= 1.0.0"
+      "OnboardingPortal.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -50,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/varvarabaranchikova/PJATK/Diploma/Onboarding_Application/OnboardingPortal/OnboardingPortal.Infra/OnboardingPortal.Infra.csproj",
-      "projectName": "OnboardingPortal.Infra",
-      "projectPath": "/Users/varvarabaranchikova/PJATK/Diploma/Onboarding_Application/OnboardingPortal/OnboardingPortal.Infra/OnboardingPortal.Infra.csproj",
+      "projectUniqueName": "/Users/varvarabaranchikova/PJATK/Diploma/Onboarding_Application/OnboardingPortal/OnboardingPortal.Application/OnboardingPortal.Application.csproj",
+      "projectName": "OnboardingPortal.Application",
+      "projectPath": "/Users/varvarabaranchikova/PJATK/Diploma/Onboarding_Application/OnboardingPortal/OnboardingPortal.Application/OnboardingPortal.Application.csproj",
       "packagesPath": "/Users/varvarabaranchikova/.nuget/packages/",
-      "outputPath": "/Users/varvarabaranchikova/PJATK/Diploma/Onboarding_Application/OnboardingPortal/OnboardingPortal.Infra/obj/",
+      "outputPath": "/Users/varvarabaranchikova/PJATK/Diploma/Onboarding_Application/OnboardingPortal/OnboardingPortal.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/varvarabaranchikova/.nuget/NuGet/NuGet.Config"
@@ -69,8 +51,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/varvarabaranchikova/PJATK/Diploma/Onboarding_Application/OnboardingPortal/OnboardingPortal.Application/OnboardingPortal.Application.csproj": {
-              "projectPath": "/Users/varvarabaranchikova/PJATK/Diploma/Onboarding_Application/OnboardingPortal/OnboardingPortal.Application/OnboardingPortal.Application.csproj"
+            "/Users/varvarabaranchikova/PJATK/Diploma/Onboarding_Application/OnboardingPortal/OnboardingPortal.Core/OnboardingPortal.Core.csproj": {
+              "projectPath": "/Users/varvarabaranchikova/PJATK/Diploma/Onboarding_Application/OnboardingPortal/OnboardingPortal.Core/OnboardingPortal.Core.csproj"
             }
           }
         }

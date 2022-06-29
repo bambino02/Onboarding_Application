@@ -6,6 +6,7 @@ namespace OnboardingPortal.Core.Entities
         public string Type { get; set; }//enum
         public string Scope { get; set; }
         
+        public int idEmployee { get; set; }
         public Employee Employee { get; set; }
     }
 }

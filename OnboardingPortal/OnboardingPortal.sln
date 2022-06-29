@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnboardingPortal.Core", "OnboardingPortal.Core\OnboardingPortal.Core.csproj", "{A68B5D9A-859A-410E-ACFA-759A75943786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnboardingPortal.App", "OnboardingPortal.App\OnboardingPortal.App.csproj", "{AC8EA62E-AB08-464B-9909-B9D317B8BC23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnboardingPortal.Application", "OnboardingPortal.Application\OnboardingPortal.Application.csproj", "{AC8EA62E-AB08-464B-9909-B9D317B8BC23}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnboardingApp.SharedKernel", "OnboardingApp.SharedKernel\OnboardingApp.SharedKernel.csproj", "{F6FFCE10-1977-4204-8160-04B0BFFACB7F}"
 EndProject
